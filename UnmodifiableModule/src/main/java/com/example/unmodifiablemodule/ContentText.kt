@@ -19,14 +19,14 @@ fun ContentTextUnmodifiable(
         Text(
             text = title,
             modifier = Modifier.semantics {
-                testTag = "Text1"
+                testTag = "text1"
                 //Other relevant semantic properties
             }
         )
         Text(
             text = description,
             modifier = Modifier.semantics {
-                testTag = "Text2"
+                testTag = "text2"
                 //Other relevant semantic properties
             }
         )
